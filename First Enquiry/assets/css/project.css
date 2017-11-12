@@ -1,0 +1,390 @@
+
+.abc
+{  height: 50px;
+    width: 70px;
+    border:2px solid gray;
+    border-radius:50px;;
+}
+.col-sm-2 i
+{
+    font-size: 300%;
+        color:gray;
+}
+.col-sm-4 li
+{
+    list-style-type: none;
+}
+.col-sm-3 .btn
+{   
+    margin-left: 50% !important;
+    border-radius: 50%;
+    font-size: 30px;
+}
+
+.secondnav
+{
+    background-color: #395795;
+    border-radius: 0 0 0 0;
+}
+.secondnav .nav
+{
+   margin-left: 20%;
+
+}
+ul a
+{
+    color:white !important;
+}
+
+.container-fluid i
+{
+   font-size: 100px;
+    color:white;
+    
+}
+.container-fluid
+{
+    margin-top: 0;
+    position: relative;
+    top:-2.4%;
+}
+.row
+{
+    overflow: hidden;
+}
+.row .background
+{      
+    background: url(2.jpg) repeat;
+    
+    height:50%;
+    width: 100%;
+    overflow: hidden;
+}
+.container-fluid p
+{
+   font-size: 35px; 
+    color:white;
+}
+.container-fluid li
+{
+   font-size: 25px; 
+    color:white;
+}
+.one i
+{
+  margin-left: 40px;  
+}
+.two i
+{
+    margin-left:30px;
+}
+.three li
+{
+    margin-left: 20px;
+}
+
+.sidenav
+			{
+				position: relative;
+				height: 70%;
+				width: 0;
+				background-color: gray;
+				margin-top:-65px;
+				right: 0;
+				padding-top: -50px;
+				overflow-x: hidden;
+				z-index: 1;
+				transition: 0.9s;
+                overflow: hidden;
+			}
+			.sidenav .panel
+			{
+               position: absolute;
+                top:-70%;
+			    text-decoration: none;
+			    font-size: 15px;
+			    color: white;
+			    transition: 0.3s;
+			    display: block;
+			}
+
+			
+
+             .sidenav .closebtn 
+             {
+			    position: absolute;
+			    top: 0;
+			    font-size: 36px;
+			    left: 0%;
+			}
+
+.col-sm-2 button
+{
+  position: relative;
+  left:-30%;    
+}
+.col-sm-2 .btn1
+{
+    position: relative;
+    left: 10px;
+    margin-top: -30px;
+}
+
+.imgtxt
+{
+    height: 30%;
+    width: 20%;
+    background-color: aqua;
+    float:left;
+    position: relative;
+    margin:0;
+}
+
+.imgtxt1
+{
+    height: 30%;
+    width: 20%;
+    background-color: darkblue;
+    float:left;
+    position: relative;
+    margin:0;
+}
+.imgtxt .img
+{
+    height: 30%;
+    width: 100%;
+}
+.imgtxt1 .img
+{
+    height: 32%;
+    width: 100%;
+}
+.img img
+{
+    height: 100%;
+    width: 30%;
+    margin-left: 30%;
+    margin-top: 10%;
+}
+.anim
+{
+    padding: 0;
+    overflow: hidden;
+}
+.txt
+{  
+    padding: 10px;
+    padding-top: 40px;
+    
+}
+.cont p
+{
+    font-size: 20px;
+}
+.training
+{
+    padding-left: 150px;
+    padding-right: 150px;
+    color:black;
+}
+.training p
+{
+  font-size: 17px;
+    color:gray;   
+}
+
+.enquiry
+{
+    background-color: #222;
+    color:white;
+}
+.enquiry h1
+{
+    border-bottom: 2px solid white;
+    border-bottom-right-radius: 100px;
+    border-bottom-width: medium 
+}
+.logo
+{
+    float: left;
+    color:blue;
+    border: 2px solid blue;
+    height: 60px;
+    width: 60px;
+    padding-top: 6px;
+}
+.content
+{
+    margin-left: 80px;
+}
+.content p
+{
+    color:gray;
+}
+
+.who p
+{
+    font-size: 17px;
+    color:gray;
+
+}
+#accordion
+{
+    padding-bottom: 200px;
+}
+#accordion p
+{
+    font-size: 15px;
+}
+#accordion h3
+{
+    font-size: 17px;
+    background: #222;
+    color:white;
+}
+
+#accordion span
+{
+    float:right;
+}
+.blue
+{
+    background-color: blue;
+    font-size: 59px;
+}
+.blog
+{
+    background-color: #222;
+    height: 60%;
+}
+
+.testhead
+{
+    position: relative;
+    color:gray;
+}
+.testhead  h1
+{
+   position: relative;
+  top:-20px;
+    color:black;
+}
+.item p
+{
+    color:black; 
+}
+.item .sec
+{
+    width: 45%;
+    margin: 2%;
+    height: 40%;
+   float:left; 
+}
+
+.contact
+{
+    background-color: #0a56a7;
+    color:white;
+}
+.contact .btn
+{
+   
+  width: 15%;
+    height: 5%;
+    margin-top: 5%;
+}
+.contact .btn {
+    position: relative;
+    background-color: #4CAF50;
+    border: none;
+    font-size: 20px;
+    color: #FFFFFF;
+    padding: 2px;
+    width: 200px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.contact .btn:after {
+    content: "";
+    background: #90EE90;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px!important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+}
+
+.contact .btn:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+}
+.a262 .col-sm-2
+{
+    height: 17%;
+    width: 20%;
+    background-color: gray;
+    margin: 2%;
+}
+.a262 p
+{
+    color:black;
+    font-size: 50px;
+    margin-top: 20%;
+}
+.a262 p:hover
+{
+    color:black;
+    font-size: 50px;
+    margin-top: 20%;
+}
+
+/*Angular js validation */
+   input.ng-touched{
+			border : 2px solid red;
+			}
+			
+			input.ng-valid{
+				border: 2px solid green;
+			}
+		
+			select.ng-touched{
+			border:2px solid red;
+			}
+			
+			select.ng-valid{
+				border:2px solid green;
+			}
+			
+			textarea.ng-touched{
+			border:2px solid red;
+			}
+			
+			textarea.ng-valid{
+			border:2px solid green;
+			}
+			
+			
+			span{
+			color:red;
+			}
+			
+		
+			form.ng-pristine{
+			background-color:yellow;
+			}
+			
+			form.ng-dirty{
+			background-color:lightgreen;
+			
+			}
+/*angular js validation end*/
